@@ -27,7 +27,26 @@ Oyun Yöneticisi (Game Master) olarak Streamlit arayüzünden ormana dışarıda
 Proje paket yönetimi için `uv` kullanılarak izole edilmiştir.
 
 **1. Depoyu Klonlayın:**
-```bash
+
 git clone [https://github.com/KULLANICI_ADIN/krallarin_savasi.git](https://github.com/KULLANICI_ADIN/krallarin_savasi.git)
 cd krallarin_savasi
+
+**2. Gerekli Kütüphaneleri Yükleyin**
+
+uv pip install streamlit google-generativeai ollama python-dotenv
+
+**3. API Anahtarınızı Ayarlayın:**
+
+Proje ana dizininde .env adında bir dosya oluşturup Gemini API anahtarınızı ekleyin:
+GEMINI_API_KEY="AIzaSySenin...Gizli...Anahtarin..."
+
+**4. Yerel Modelleri İndirin:**
+
+ollama pull llama3.2:3b
+ollama pull phi3
+
+**5. Simülasyonu Başlatın:**
+
+uv run streamlit run main.py
+
 
