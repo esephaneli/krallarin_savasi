@@ -30,4 +30,4 @@ Proje paket yönetimi için `uv` kullanılarak izole edilmiştir.
 ```bash
 git clone [https://github.com/KULLANICI_ADIN/krallarin_savasi.git](https://github.com/KULLANICI_ADIN/krallarin_savasi.git)
 cd krallarin_savasi
-<img width="1877" height="857" alt="Ekran görüntüsü 2026-08-14 150253" src="https://github.com/user-attachments/assets/1347a405-2ee0-423e-8dcd-41375e52dd2f" />
+
