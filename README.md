@@ -27,10 +27,10 @@ Oyun Yöneticisi (Game Master) olarak Streamlit arayüzünden ormana dışarıda
 Proje paket yönetimi için `uv` kullanılarak izole edilmiştir.
 
 **1. Depoyu Klonlayın:**
-
+"""
 git clone [https://github.com/KULLANICI_ADIN/krallarin_savasi.git](https://github.com/KULLANICI_ADIN/krallarin_savasi.git)
 cd krallarin_savasi
-
+"""
 **2. Gerekli Kütüphaneleri Yükleyin**
 
 uv pip install streamlit google-generativeai ollama python-dotenv
